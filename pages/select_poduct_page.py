@@ -4,6 +4,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from base.base_class import Base
+from utilities.logger import Logger
 
 
 class Select_product_page(Base):
@@ -62,9 +63,11 @@ class Select_product_page(Base):
     """Метод выбор товара с помощью фильтра. """
 
     def select_products(self):
+        Logger.add_start_step(method="select_products")
         self.click_select_category()
         self.scroll_window()
         self.click_radio_button()
         self.click_checkbox_1()
         self.click_button_filter()
         self.get_current_url()
+        Logger.add_end_step(url=self.driver.current_url, method="select_products")

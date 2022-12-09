@@ -33,7 +33,7 @@ def test_select_product(set_up, set_group):
     time.sleep(5)
 
 
-# @pytest.mark.run(order=1)
+@pytest.mark.run(order=1)
 def test_select_product_1(set_group):
     options = Options()
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
