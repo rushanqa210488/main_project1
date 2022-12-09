@@ -24,7 +24,7 @@ class Base():
         self.driver.execute_script("window.scrollTo(0, 1400)")
         print("scroll ok")
 
-    """Method Screenshot"""
+    """Method Screenshot!!!"""
 
     def get_screenshot(self):
         now_date = datetime.datetime.utcnow().strftime("%Y.%m.%d.%H.%M.%S")
