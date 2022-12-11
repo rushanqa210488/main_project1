@@ -1,0 +1,16 @@
+Start test
+Enter system
+Start Test
+Current url  https://www.xn-----elcjb0blled5a.xn--p1ai/
+Good Value word
+Click select category
+scroll ok
+Click radio button
+Click checkbox_1
+Click button filter
+Current url  https://www.xn-----elcjb0blled5a.xn--p1ai/catalog/smesitelnye-uzly-dlya-teplogo-pola-i-kollektornye-gruppy/filter/clear/apply/
+Click select product
+Click button description
+Click button cart
+Exit system
+Finish test

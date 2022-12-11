@@ -1,5 +1,6 @@
 import time
 
+import allure
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -8,6 +9,7 @@ from pages.main_page import Main_page
 
 
 
+@allure.description("Test Check Main Tabs")
 def test_check_main_tabs(set_up, set_group):
     options = Options()
     options.add_experimental_option('excludeSwitches', ['enable-logging'])

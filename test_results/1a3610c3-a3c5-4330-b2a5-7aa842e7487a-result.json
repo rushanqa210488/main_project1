@@ -1,0 +1,74 @@
+{
+  "name": "test_select_product",
+  "status": "passed",
+  "description": "Test Select Product",
+  "steps": [
+    {
+      "name": "Opening Homepage",
+      "status": "passed",
+      "start": 1670760415739,
+      "stop": 1670760420361
+    },
+    {
+      "name": "Select Products",
+      "status": "passed",
+      "start": 1670760420361,
+      "stop": 1670760422358
+    },
+    {
+      "name": "Buy Product",
+      "status": "passed",
+      "start": 1670760422358,
+      "stop": 1670760426184
+    },
+    {
+      "name": "Finish",
+      "status": "passed",
+      "start": 1670760426184,
+      "stop": 1670760426336
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "07d958ca-1502-4d56-8da5-9b6962b90819-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1670760414470,
+  "stop": 1670760433386,
+  "uuid": "e3f5af85-bcf4-496c-a0d5-2deb1da95e8c",
+  "historyId": "bc776094f6146701a7a7c9117ec8d37e",
+  "testCaseId": "2e6181f8d331563f5b6826cded2268fe",
+  "fullName": "tests.test_buy_product#test_select_product",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_buy_product"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-23MDD3S"
+    },
+    {
+      "name": "thread",
+      "value": "4184-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_buy_product"
+    }
+  ]
+}

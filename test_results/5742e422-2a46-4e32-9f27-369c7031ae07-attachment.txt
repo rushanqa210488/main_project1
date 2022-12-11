@@ -1,0 +1,11 @@
+Start test
+Enter system
+Start Test
+Current url  https://www.xn-----elcjb0blled5a.xn--p1ai/
+Good Value word
+Check main tabs
+Current url  data:,
+Current url  data:,
+Finish screenshot 
+Exit system
+Finish test

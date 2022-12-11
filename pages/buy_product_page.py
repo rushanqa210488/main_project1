@@ -1,4 +1,6 @@
 import time
+
+import allure
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -78,12 +80,14 @@ class Buy_product_page(Base):
     """Метод выбора продукта 1 и переход в корзину"""
 
     def buy_product(self):
-        Logger.add_start_step(method="buy_product")
-        self.click_select_product()
-        self.click_button_description()
-        self.click_button_cart()
-        self.click_button_checkout()
-        Logger.add_end_step(url=self.driver.current_url, method="buy_product")
+        with allure.step("Buy Product"):
+            Logger.add_start_step(method="buy_product")
+            self.click_select_product()
+            self.click_button_description()
+            self.click_button_cart()
+            self.click_button_checkout()
+            Logger.add_end_step(url=self.driver.current_url, method="buy_product")
+
 
     """Метод выбора продукта 2 и переход в корзину"""
 
