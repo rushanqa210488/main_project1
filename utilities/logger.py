@@ -3,7 +3,7 @@ import os
 
 
 class Logger():
-    file_name = f"C:\\Users\\Рушан\\Desktop\\main_project1\\logs\\log_" + str(
+    file_name = f"C:\\Python\\main_project1\\logs\\log_" + str(
         datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")) + ".log"
 
     @classmethod

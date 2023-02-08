@@ -50,7 +50,7 @@ class Main_page(Base):
     def check_main_tabs(self):
         with allure.step("Check Main Tabs"):
             Logger.add_start_step(method="check_main_tabs")
-            for indx in range(14):
+            for indx in range(13):
                 self.get_elements_by_otoplenie()[indx].click()
                 time.sleep(2)
                 self.driver.back()
