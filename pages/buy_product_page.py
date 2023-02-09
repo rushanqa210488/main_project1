@@ -88,7 +88,7 @@ class Buy_product_page(Base):
             Logger.add_end_step(url=self.driver.current_url, method="buy_product")
 
 
-    """Метод выбора продукта 2 и переход в корзину"""
+    """Метод выбора продукта второго  и переход в корзину"""
 
     def buy_product1(self):
         Logger.add_start_step(method="buy_product1")
